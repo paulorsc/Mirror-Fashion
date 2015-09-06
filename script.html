@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Script</title>
+</head>
+
+<body>
+    <h1>Bem vindo!</h1>
+    <button>Clique</button>
+
+    <script>
+        function mudatexto() {
+            var titulo = document.querySelector("h1");
+            titulo.textContent = "Olah";
+        }
+
+        var botao = document.querySelector("button");
+        botao.onclick = mudatexto;
+    </script>
+
+
+</body>
